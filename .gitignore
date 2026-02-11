@@ -1,0 +1,53 @@
+# SuperCollider specific
+*.scwork
+*.scd~
+*.scd.bak
+*.schelp~
+synthdef-*.scsyndef
+SC_* 
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Audio files (often large, can be excluded if generated)
+*.wav
+*.aiff
+*.mp3
+*.flac
+
+# Log files
+*.log
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+
+# Dependencies (if any)
+quarks/
+downloaded-quarks/
+
+# Build/compiled files
+build/
+*.scx
+*.so
+*.dylib
+
+# Personal/local settings
+personal/
+local-settings.scd
